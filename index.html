@@ -309,7 +309,19 @@
                 <div class="subscription-wraper text-center">
                   <h4 class="text-upper">Subscribe newslatter</h4>
                   <p>Enter your email address for our weekly new update</p>
-                  <form class="subscription-form">
+                    <form action="https://formspree.io/f/xpznwzrw"
+                          method="POST" class="subscription-form"
+                        >
+                          <label>
+                            Your email:
+                            <input type="email" name="email">
+                          </label>
+                          <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                          </label>
+                          <!-- your other form fields go here -->
+                          <button type="submit">Send</button>
                     <div class="form-group">
                       <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                     </div>
